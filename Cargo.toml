@@ -1,0 +1,11 @@
+[package]
+name = "num_enum_regression_13"
+version = "0.1.0"
+authors = ["Daniel Wagner-Hall <dawagner@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+# Generate with strings:
+num_enum = { git = "https://github.com/illicitonion/num_enum.git", rev = "a9ababf84935cdf5d8ea7cb11380db92e8ba152f" }
+# Generate with proc_quote:
+#num_enum = { git = "https://github.com/illicitonion/num_enum.git", rev = "d0f3a2d5d7a68933463ccfce50f68b30c7fcee0c" }
